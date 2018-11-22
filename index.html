@@ -5,10 +5,12 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="developer, designer, web-designer, front-end-developer">
+    <meta name="Content-Language" content="english">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Abhishek Kotnala">
 
-    <title>Abhishek Kotnala</title>
+    <title>Portfolio - Abhishek Kotnala</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,7 +31,7 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Abhishek Kotnala</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Abhishek">
         </span>
       </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +65,6 @@
     </nav>
 
     <div class="container-fluid p-0">
-
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
             <div class="my-auto">
                 <h1 class="mb-0">Abhishek
@@ -139,7 +140,15 @@
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">Conestoga College, Kitchener, ON</h3>
                         <div class="subheading mb-3">Post Graduation</div>
-                        <div>Web Design and Development</div>
+                        <div class="subheading mb-3">Web Design and Development</div>
+                        <ul class="fa-ul mb-0">
+                            <li><i class="fa-li fa fa-check text-danger"></i>Web site enabling access for all devices, Using HTML5/CSS3. Creating rich, scalable, and responsive web sites while maintaining backward compatibility.</li>
+                            <li><i class="fa-li fa fa-check text-danger"></i>Debugging client-side code, incorporating libraries, and exploring the new feature in ECMAScript 6.</li>
+                            <li><i class="fa-li fa fa-check text-danger"></i>Database design and Maintenance, PHP, Android application development and Data Visualization with D3.js.</li>
+                            <li><i class="fa-li fa fa-check text-danger"></i>REST API server from scratch using MongoDB. Web application using AngularJS and a hybrid mobile application using the Node.js framework.</li>
+                            <li><i class="fa-li fa fa-check text-danger"></i>Analyzing web traffic and maximizing your web site's visibility through SEO.</li>
+                            <li><i class="fa-li fa fa-check text-danger"></i>Agile/Scrum methodology.</li>
+                        </ul>
                     </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">SEPTEMBER 2017 – DECEMBER 2018</span>
@@ -150,8 +159,13 @@
                     <div class="resume-content mr-auto">
                         <h3 class="mb-0">PUNJABI UNIVERSITY PATIALA, IN</h3>
                         <div class="subheading mb-3">BACHELOR'S DEGREE</div>
-                        <div>Computer Science Engineering</div>
-                     </div>
+                        <div class="subheading mb-3">Computer Science Engineering</div>
+                        <ul class="fa-ul mb-0">
+                            <li><i class="fa-li fa fa-check text-danger"></i>Computer Architecture, Operating System and System Analysis and Design.</li>
+                            <li><i class="fa-li fa fa-check text-danger"></i>Data structure, Analysis Algorithm and design.</li>
+                            <li><i class="fa-li fa fa-check text-danger"></i>Network security and Software project management.</li>
+                        </ul>
+                    </div>
                     <div class="resume-date text-md-right">
                         <span class="text-primary">AUG 2013 – JULY 2017</span>
                     </div>
@@ -166,69 +180,75 @@
             <div class="my-auto">
                 <h2 class="mb-5">Here are some of my Projects</h2>
                 <div class="row row-pt-md">
-                    <div class="col-md-4 text-center animate-box fadeInUp animated">
-                        <div class="services color-1">
-                            <span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-                            <div class="desc">
-                                <h3>Innovative Ideas</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                    <div class="col-lg-4 col-sm-6 portfolio-item">
+                        <div id="btnShow" class="card h-100">
+                            <a><img class="card-img-top" src="" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a id="btnShow" href="#btnShow">MoCell</a>
+                                </h4>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="demoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title" id="myModalLabel"></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul class="fa-ul mb-0">
+                                            <li><i class="fa-li fa fa-check"></i>MoCell data-driven web application using Node.js, Express, AngularJS and Mongo.</li>
+                                            <li><i class="fa-li fa fa-check"></i>It is a fully functioning Angular web application in which I’ve used all layers of the MEAN stack to create MoCell</li>
+                                            <li><i class="fa-li fa fa-check"></i>It is a fully functioning Angular web application in which I’ve used all layers of the MEAN stack to create MoCell.</li>
+                                            <li><i class="fa-li fa fa-check"></i>It will also display Product name, Price, description, and a rating for each product.</li>
+                                            <li><i class="fa-li fa fa-check"></i>Users will be able to submit ratings and reviews.</li>
+                                            <li><i class="fa-li fa fa-check"></i>I designed and developed API’s to make service requests to my MongoDB Database.</li>
+                                            <li><i class="fa-li fa fa-check"></i>I used Single Page Application (SPA) to develop this application.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="https://mocell-app.herokuapp.com/"><button type="button" class="btn btn-danger" data-dismiss="modal">Get Code</button></a>
+                                        <a href="https://mocell-app.herokuapp.com/"><button type="button" class="btn btn-danger">Live Preview</button></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center animate-box fadeInUp animated">
-                        <div class="services color-2">
-                            <span class="icon">
-									<i class="icon-data"></i>
-								</span>
-                            <div class="desc">
-                                <h3>Software</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                    <div class="col-lg-4 col-sm-6 portfolio-item">
+                        <div id="btnShow1" class="card h-100">
+                            <a><img class="card-img-top" src="" alt=""></a>
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <a id="btnShow1" href="#btnShow1">MoSoVi</a>
+                                </h4>
+                                <p class="card-text"></p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 text-center animate-box fadeInUp animated">
-                        <div class="services color-3">
-                            <span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-                            <div class="desc">
-                                <h3>Application</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-center animate-box">
-                        <div class="services color-4">
-                            <span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-                            <div class="desc">
-                                <h3>Graphic Design</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-center animate-box">
-                        <div class="services color-5">
-                            <span class="icon">
-									<i class="icon-data"></i>
-								</span>
-                            <div class="desc">
-                                <h3>Software</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-center animate-box">
-                        <div class="services color-6">
-                            <span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-                            <div class="desc">
-                                <h3>Application</h3>
-                                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+                        <!-- Modal -->
+                        <div class="modal fade" id="demoModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title" id="myModalLabel"></h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>The OMDb API is a RESTful web service to obtain movie information, including Images. This API is Free to use and easily available but require a API key, which you can use via Signing up.</div>
+                                        <div>I have used the following parameter to fetch the data from the api: -</div>
+                                        <div>1.	t - Movie title to search for (In detail).</div>
+                                        <div>2.	Type - Type of result to return. (movie, series)</div>
+                                        <div>3.	Y - Year of release.</div>
+                                        <div>4.	Plot – Return short or full plot.</div>
+                                        <div>5.	S - Movie title to search for.</div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <a href="https://mocell-app.herokuapp.com/"><button type="button" class="btn btn-default" data-dismiss="modal">Get Code</button></a>
+                                        <a href="https://mocell-app.herokuapp.com/"><button type="button" class="btn btn-primary">Live Preview</button></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -330,9 +350,26 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.min.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
 
+
+    <script type="text/javascript">
+        $(function() {
+            $("#btnShow").click(function() {
+                $('#demoModal').modal('show');
+            });
+        });
+        $(function() {
+            $("#btnShow1").click(function() {
+                $('#demoModal1').modal('show');
+            });
+        });
+        $(function() {
+            $("#btnShow2").click(function() {
+                $('#demoModal2').modal('show');
+            });
+        });
+
+    </script>
 </body>
 
 </html>
